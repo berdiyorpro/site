@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+body { font-family: 'Inter', sans-serif; }
+
+.menu-link {
+    font-size: 13px;
+    font-weight: 800;
+    color: #64748b;
+    padding-bottom: 10px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.menu-link.active { color: white; border-bottom: 3px solid #00ff85; }
+
+.filter-btn {
+    background: #161b22;
+    padding: 6px 20px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #30363d;
+    color: #8b949e;
+    transition: 0.2s;
+}
+.filter-btn.active { background: #00ff85; color: black; border-color: #00ff85; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.league-card {
+    background: #161b22;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
